@@ -55,8 +55,8 @@ $(document).ready(function() {
 /*  $(".descartar").each(function() {
     $(this).click(function(){
       $(this).parents(".tarjeta").parent().slideToggle();
-    });*/
-  });
+    });
+  });*/
   // Desplegables
   $(".desplegador").each(function() {
     $(this).click(function(e){
