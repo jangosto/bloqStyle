@@ -95,6 +95,7 @@ main{text-align:left}
 .botones.izq{text-align:left}.botones.izq .boton{margin-right:-4px}
 .boton{height:40px;padding:0 5px;display:inline-block;color:#FFF}
 input.boton{margin-top:10px;padding:0 10px;border:0;font-family:'Roboto', sans-serif;text-transform:uppercase}
+button.boton{padding:0 10px;border:0;font-family:'Roboto', sans-serif;text-transform:uppercase}
 .boton:hover{cursor:pointer;color:#FFF}
 .boton .icono,.boton .accion{height:40px;padding:0 5px;float:left;display:block}
 .boton .icono{position:relative;line-height:40px}
