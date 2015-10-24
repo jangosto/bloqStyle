@@ -66,8 +66,8 @@ img{width:100%;height:auto}
 /* Estructura */
 main{text-align:left}
 .contenedor{width:960px;margin:0 auto;padding:10px;display:block;text-align:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-@media (max-width:640px){.contenedor{width:100%}}
-@media (min-width:641px) and (max-width:1000px){.contenedor{width:600px}}
+@media (max-width:1000px){.contenedor{width:100%}}
+/* @media (min-width:641px) and (max-width:1000px){.contenedor{width:600px}} */
 @media (min-width:1321px){.contenedor{width:1280px}}
 .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{min-height:1px;float:left;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .col-1{width:8.3%}.col-2{width:16.6%}.col-3{width:25%}.col-4{width:33.3%}.col-5{width:41.6%}.col-6{width:50%}.col-7{width:58.3%}.col-8{width:66.6%}.col-9{width:75%}.col-10{width:83.3%}.col-11{width:91.6%}.col-12{width:100%}
@@ -134,6 +134,7 @@ form label.check input.pulsado,form label.radio input.pulsado{background-color:#
 form label.check input{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px}
 form label.radio input{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
 form input.texto,form select,form textarea{width:100%;margin-bottom:15px;padding:7px;border:0;border-bottom:2px solid #E0E0E0;font-size:14px;background:#FFF;color:#666;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+form textarea{font-family:Arial, sans-serif}
 form input.texto.grande{font-size:24px}
 form select{padding:7px;outline:none;appearance:none;-webkit-appearance:none;-moz-appearance:none;cursor:pointer;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
 form input.texto:disabled{color:#999}

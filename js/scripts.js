@@ -52,11 +52,11 @@ $(document).ready(function() {
     $("#boton_menu").css("display","block");
   });
   // Cierra tarjetas
-/*  $(".descartar").each(function() {
+  /* $(".descartar").each(function() {
     $(this).click(function(){
       $(this).parents(".tarjeta").parent().slideToggle();
     });
-  });*/
+  }); */
   // Desplegables
   $(".desplegador").each(function() {
     $(this).click(function(e){
