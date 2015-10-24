@@ -3,6 +3,8 @@ var anchoVentana = $(window).width();
 var altoVentana = $(window).height();
 
 function resizeGeneral(){
+  anchoVentana = $(window).width();
+  altoVentana = $(window).height();
   // Imágenes
   $(".resize-img").each(function() {
     var anchopadre = $(this).parent().width();
@@ -29,6 +31,7 @@ function resizeGeneral(){
 };
 
 $(document).ready(function() {
+  resizeGeneral();
   // Activa los botones de la navegación
   var bodyID = $("body").attr("id");
   $("nav a").removeClass('activo');
@@ -93,7 +96,6 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(resizeGeneral);
 $(window).resize(resizeGeneral);
 
 $(window).load(function(){

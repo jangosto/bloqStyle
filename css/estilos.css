@@ -41,12 +41,9 @@ img{width:100%;height:auto}
 .icon{display:inline-block;font-family:'Material-Design-Iconic-Font';font-size:18px;font-weight:normal;font-style:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .icon-hc-spin{-webkit-animation:zmdi-spin 1.5s infinite linear;animation:zmdi-spin 1.5s infinite linear}
 .icon-hc-spin-reverse{-webkit-animation:zmdi-spin-reverse 1.5s infinite linear;animation:zmdi-spin-reverse 1.5s infinite linear}
-@-webkit-keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
-@keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
-@-webkit-keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}
-@keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}
+@-webkit-keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}@keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}
 
-.icon-alertas:before{content:'\f1fe'}.icon-ajustes:before{content:'\f1c6'}.icon-cerrar:before{content:'\f134'}.icon-eliminar:before{content:'\f154'}.icon-menu:before{content:'\f197'}.icon-flecha-izq:before{content:'\f2ea'}.icon-flecha-der:before{content:'\f2ee'}.icon-sitios:before{content:'\f14b'}.icon-dashboard:before{content:'\f3d5'}.icon-articulos:before{content:'\f150'}.icon-galerias:before{content:'\f13f'}.icon-perfiles:before{content:'\f20b'}.icon-comentarios:before{content:'\f266'}.icon-multimedia:before{content:'\f28c'}.icon-configuracion:before{content:'\f3b8'}.icon-ayuda:before{content:'\f1f5'}.icon-info:before{content:'\f1f7'}.icon-sumar:before{content:'\f275'}.icon-subir:before{content:'\f22a'}.icon-star:before{content:'\f27d'}.icon-editar:before{content:'\f158'}.icon-fast-forward:before{content:'\f39f'}.icon-fast-rewind:before{content:'\f3a0'}.icon-skip-next:before{content:'\f3b4'}.icon-skip-previous:before{content:'\f3b5'}
+.icon-alertas:before{content:'\f1fe'}.icon-ajustes:before{content:'\f1c6'}.icon-cerrar:before{content:'\f134'}.icon-eliminar:before{content:'\f154'}.icon-menu:before{content:'\f197'}.icon-flecha-izq:before{content:'\f2ea'}.icon-flecha-der:before{content:'\f2ee'}.icon-sitios:before{content:'\f14b'}.icon-dashboard:before{content:'\f3d5'}.icon-articulos:before{content:'\f150'}.icon-galerias:before{content:'\f13f'}.icon-perfiles:before{content:'\f20b'}.icon-comentarios:before{content:'\f266'}.icon-multimedia:before{content:'\f28c'}.icon-configuracion:before{content:'\f3b8'}.icon-ayuda:before{content:'\f1f5'}.icon-info:before{content:'\f1f7'}.icon-sumar:before{content:'\f275'}.icon-subir:before{content:'\f22a'}.icon-star:before{content:'\f27d'}.icon-editar:before{content:'\f158'}.icon-fast-forward:before{content:'\f39f'}.icon-fast-rewind:before{content:'\f3a0'}.icon-skip-next:before{content:'\f3b4'}.icon-skip-previous:before{content:'\f3b5'}.icon-tag:before{content:'\f187'}.icon-categoria:before{content:'\f228'}.icon-restaurar:before{content:'\f306'}
 
 /* Colores */
 .bg-blanco{background-color:#FFF}.blanco{color:#FFF}
@@ -190,9 +187,9 @@ table{width:100%}
 table tr{border-bottom:1px dotted #E0E0E0}
 table.bandas tr:nth-child(even){background-color:rgba(255,255,255,0.1);}
 table th,table td{padding:10px 5px;vertical-align:middle}
-table th{font-size:10px;font-weight:bold;text-transform:uppercase}
+table th{font-size:10px;font-weight:bold;text-transform:uppercase;color:#9E9E9E}
 table th.ppal{width:100%}
-table td{font-size:13px}
+table td{font-size:13px;color:#424242}
 /* Paginación */
 ul.paginacion{width:100%;padding:5px 0;text-align:center}
 ul.paginacion li{display:inline-block}
