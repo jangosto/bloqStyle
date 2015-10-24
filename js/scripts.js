@@ -3,6 +3,8 @@ var anchoVentana = $(window).width();
 var altoVentana = $(window).height();
 
 function resizeGeneral(){
+  anchoVentana = $(window).width();
+  altoVentana = $(window).height();
   // Imágenes
   $(".resize-img").each(function() {
     var anchopadre = $(this).parent().width();
@@ -29,6 +31,7 @@ function resizeGeneral(){
 };
 
 $(document).ready(function() {
+  resizeGeneral();
   // Activa los botones de la navegación
   var bodyID = $("body").attr("id");
   $("nav a").removeClass('activo');
@@ -52,11 +55,11 @@ $(document).ready(function() {
     $("#boton_menu").css("display","block");
   });
   // Cierra tarjetas
-/*  $(".descartar").each(function() {
+  /* $(".descartar").each(function() {
     $(this).click(function(){
       $(this).parents(".tarjeta").parent().slideToggle();
     });
-  });*/
+  }); */
   // Desplegables
   $(".desplegador").each(function() {
     $(this).click(function(e){
@@ -93,7 +96,6 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(resizeGeneral);
 $(window).resize(resizeGeneral);
 
 $(window).load(function(){
