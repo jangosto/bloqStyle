@@ -94,6 +94,16 @@ $(document).ready(function() {
   $(":file").jfilestyle({
     buttonText: "<span class='icon icon-subir'></span>"
   });
+
+  $("#editor_article_edition_sectionId").change(function () {
+    var categoryId = $(this).val();
+    $("#categories_selection :input[value='"+categoryId+"']").attr('checked', 'checked');
+    $("#categories_selection label").show();
+    $("#categories_selection :input[value='"+categoryId+"']").parent('label').hide();
+  });
+
+  var categoryId = $("#editor_article_edition_sectionId").val();
+  $("#categories_selection :input[value='"+categoryId+"']").parent('label').hide();
 });
 
 $(window).resize(resizeGeneral);
