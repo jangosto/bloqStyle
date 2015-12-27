@@ -537,6 +537,8 @@ footer.pie{margin:40px 10px 0;padding:20px 0;border-top:1px solid #E0E0E0}
 /* Selector de tags */
 .guardado-en{width:100%;height:250px;margin-bottom:15px;padding:10px 5px 5px;display:block;overflow-y:scroll;background-color:#FFF;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 form .guardado-en label.check,form .guardado-en label.radio{margin-left:5px;margin-right:5px;margin-bottom:7px;display:inline-block}
+/* Nuevas secciones en el menú */
+#sections-added,#sections-list{height:200px;padding:20px;border-radius:25px;border:2px solid #ff5722}
 
 /* móviles y tabletas pequeñas */
 @media (max-width:640px){
