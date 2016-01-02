@@ -548,7 +548,7 @@ form .guardado-en label.check,form .guardado-en label.radio{margin-left:5px;marg
 #contenidos-destacados .droppable-container{height:500px;}
 #contenidos-destacados .droppable-container .elemento-contenido{display: block;}
 /* Categorías Destacadas */
-#secciones .droppable-container{height:200px;}
+#secciones .droppable-container{height:500px;}
 #secciones .droppable-container .elemento-seccion{float: left;}
 
 
