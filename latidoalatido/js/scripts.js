@@ -38,6 +38,12 @@ function resizeColumna(){
   };
 };
 
+function createPopup(url, width, height) {
+    newwindow=window.open(url,'name','height='+height+',width='+width);
+    if (window.focus) {newwindow.focus()}
+    return false;
+}
+
 $(document).ready(function() {
   // Activa los botones de la navegación
   var bodyID = $("body").attr("id");
