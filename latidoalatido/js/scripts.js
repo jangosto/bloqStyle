@@ -82,6 +82,8 @@ $(document).ready(function() {
       navRewind:false,
       navText:["<span class='icon icon-flecha-izq'></span>","<span class='icon icon-flecha-der'></span>"],
       dots:false,
+      autoplay:true,
+      autoplayHoverPause:true,
       info:true
     });
     $(this).find('.owl-controls').append('<span class="actual"></span>');
