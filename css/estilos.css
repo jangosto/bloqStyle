@@ -43,7 +43,7 @@ img{width:100%;height:auto}
 .icon-hc-spin-reverse{-webkit-animation:zmdi-spin-reverse 1.5s infinite linear;animation:zmdi-spin-reverse 1.5s infinite linear}
 @-webkit-keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}@keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}
 
-.icon-alertas:before{content:'\f1fe'}.icon-ajustes:before{content:'\f1c6'}.icon-cerrar:before{content:'\f134'}.icon-eliminar:before{content:'\f154'}.icon-menu:before{content:'\f197'}.icon-flecha-izq:before{content:'\f2ea'}.icon-flecha-der:before{content:'\f2ee'}.icon-sitios:before{content:'\f14b'}.icon-dashboard:before{content:'\f3d5'}.icon-articulos:before{content:'\f150'}.icon-galerias:before{content:'\f13f'}.icon-perfiles:before{content:'\f20b'}.icon-comentarios:before{content:'\f266'}.icon-multimedia:before{content:'\f28c'}.icon-configuracion:before{content:'\f3b8'}.icon-ayuda:before{content:'\f1f5'}.icon-info:before{content:'\f1f7'}.icon-sumar:before{content:'\f275'}.icon-subir:before{content:'\f22a'}.icon-star:before{content:'\f27d'}.icon-editar:before{content:'\f158'}.icon-fast-forward:before{content:'\f39f'}.icon-fast-rewind:before{content:'\f3a0'}.icon-skip-next:before{content:'\f3b4'}.icon-skip-previous:before{content:'\f3b5'}.icon-tag:before{content:'\f187'}.icon-categoria:before{content:'\f228'}.icon-restaurar:before{content:'\f306'}.icon-mundo:before{content:'\f173'}
+.icon-alertas:before{content:'\f1fe'}.icon-ajustes:before{content:'\f1c6'}.icon-cerrar:before{content:'\f134'}.icon-eliminar:before{content:'\f154'}.icon-menu:before{content:'\f197'}.icon-flecha-izq:before{content:'\f2ea'}.icon-flecha-der:before{content:'\f2ee'}.icon-sitios:before{content:'\f14b'}.icon-dashboard:before{content:'\f3d5'}.icon-articulos:before{content:'\f150'}.icon-galerias:before{content:'\f13f'}.icon-perfiles:before{content:'\f20b'}.icon-comentarios:before{content:'\f266'}.icon-multimedia:before{content:'\f28c'}.icon-configuracion:before{content:'\f3b8'}.icon-ayuda:before{content:'\f1f5'}.icon-info:before{content:'\f1f7'}.icon-sumar:before{content:'\f275'}.icon-subir:before{content:'\f22a'}.icon-star:before{content:'\f27d'}.icon-editar:before{content:'\f158'}.icon-fast-forward:before{content:'\f39f'}.icon-fast-rewind:before{content:'\f3a0'}.icon-skip-next:before{content:'\f3b4'}.icon-skip-previous:before{content:'\f3b5'}.icon-tag:before{content:'\f187'}.icon-categoria:before{content:'\f228'}.icon-restaurar:before{content:'\f306'}.icon-mundo:before{content:'\f173'}.icon-swap:before{content:'\f30d'}
 
 /* Colores */
 .bg-blanco{background-color:#FFF}.blanco{color:#FFF}
@@ -539,8 +539,9 @@ footer.pie{margin:40px 10px 0;padding:20px 0;border-top:1px solid #E0E0E0}
 form .guardado-en label.check,form .guardado-en label.radio{margin-left:5px;margin-right:5px;margin-bottom:7px;display:inline-block}
 
 /* Secciones con drag and drop */
-.droppable-container{padding:20px;border-radius:25px;border:2px solid #ff5722}
-.droppable-container .elemento{background-color: #B9B9B9; border-radius: 10px; margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;}
+.droppable-container{padding:20px;background-color:#fff;border-bottom:2px solid #E0E0E0}
+.droppable-container .elemento{margin:5px;padding:10px 10px 10px 24px;background-color:#F5F5F5;border-bottom:2px solid #E0E0E0;position:relative;}
+.droppable-container .elemento:after{position:absolute;left:10px;top:10px;z-index:2;content: '\f30d',font-family: 'Material-Design-Iconic-Font';font-size: 16px;color: #E0E0E0;}
 /* Nuevas secciones en el menú */
 #menu .droppable-container{height:200px;}
 #menu .droppable-container .elemento-seccion{float: left;}

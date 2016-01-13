@@ -14,6 +14,13 @@ function resizeGeneral(){
   if (anchoVentana <= 960) {
     $("nav.navegacion").height(altoVentana);
   };
+  // Calculo del ancho de los sumarios
+  if (anchoVentana > 740 && anchoVentana < 1301) {
+    $('.sumarios').each(function () {
+      var numSumarios = $(this).children('li').length;
+      $(this).children('li').css('width', 100 / numSumarios + '%');
+    });
+  };
   // Cabecera sticky
   $("header.cabecera").stick_in_parent();
   // Robapáginas sticky
@@ -39,9 +46,9 @@ function resizeColumna(){
 };
 
 function createPopup(url, width, height) {
-    newwindow=window.open(url,'name','height='+height+',width='+width);
-    if (window.focus) {newwindow.focus()}
-    return false;
+  newwindow=window.open(url,'name','height='+height+',width='+width);
+  if (window.focus) {newwindow.focus()}
+  return false;
 }
 
 $(document).ready(function() {
