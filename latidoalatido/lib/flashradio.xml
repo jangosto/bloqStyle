@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <flashradio>	
 	<THEME COLOR="#0d72bf" STARTVOLUME="75"/>
-	<CHANNEL URL="http://89.29.203.52:80/directo.mp3"></CHANNEL>
+	<CHANNEL URL="http://89.29.203.52:80/latidoalatido.mp3"></CHANNEL>
 	<RADIO NAME="GRADA FAN RADIO. Tu radio fanática" SCROLL="AUTO" AUTOPLAY="TRUE" HTML5CHROME="TRUE" DEBUG="FALSE" SONGTITLEURL=""/>
 </flashradio>
