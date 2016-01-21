@@ -101,7 +101,13 @@ $(document).ready(function() {
     $(this).find('.actual').text(elementoActual + 1 + " /");
     $(this).on('changed.owl.carousel', function(event) {
       var elementoActual = event.item.index;
-      $(this).find('.actual').text(elementoActual + 1 + " /");
+      if (elementoActual - 1 == 0) {
+        $(this).find('.actual').text(numeroElementos + " /");
+      } else if (elementoActual - 1 <= numeroElementos) {
+        $(this).find('.actual').text(elementoActual - 1 + " /");
+      } else {
+        $(this).find('.actual').text(1 + " /");
+      }
     });
   });
   resizeGeneral();
