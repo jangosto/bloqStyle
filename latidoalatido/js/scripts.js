@@ -87,6 +87,7 @@ $(document).ready(function() {
       items:1,
       nav:true,
       navRewind:false,
+      loop: true,
       navText:["<span class='icon icon-flecha-izq'></span>","<span class='icon icon-flecha-der'></span>"],
       dots:false,
       autoplay:true,
